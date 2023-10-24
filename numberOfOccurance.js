@@ -3,7 +3,7 @@
 // findNumberOfOccurance(“be kind whenever possible. kindness is what matters”, “kind”);
 // Will return an output of 2 ( 2 occurance of kind in the string )
 //--------------------------------------------------------------------------------------------------------
-const sentence = "be kind whenever  possible. kindness is what matters ";
+const sentence = "be kind whenever  possible. kindness is what matters 54654 ";
 const word = "kind";
  
 function findNumberOfOccurance(sentence,word){
