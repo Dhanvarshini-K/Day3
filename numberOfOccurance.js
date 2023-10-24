@@ -2,7 +2,7 @@
 // For example:
 // findNumberOfOccurance(“be kind whenever possible. kindness is what matters”, “kind”);
 // Will return an output of 2 ( 2 occurance of kind in the string )
-
+//--------------------------------------------------------------------------------------------------------
 const sentence = "be kind whenever  possible. kindness is what matters ";
 const word = "kind";
  
@@ -14,7 +14,7 @@ for( const value of words){
          count++;
     }
     else if(typeof word !== "string"){
-        return "The word is not a String type"
+        return "The word is not a String type";
     }
 }
  return count;

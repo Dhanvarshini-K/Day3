@@ -3,7 +3,7 @@
 // charRepeating(“traaainngfornewbie”);
 // Output: a
 // // since a has more repeating simaltaneously
-
+//--------------------------------------------------------------------------------------------------------
 function charRepeating(inputString) {
   if( typeof inputString !== "string"){
     return "invalid";
@@ -30,7 +30,7 @@ function charRepeating(inputString) {
     return maxChar;
   }
 
-const result = charRepeating("traaainngfornewbie");
+ const result = charRepeating("traaainngfornewbie");
  const result1 = charRepeating(true);
-console.log(result);
+ console.log(result);
  console.log(result1);

@@ -3,7 +3,7 @@
 // output “one”
 // convertNumberToString(98)
 // output “nineeight”
-
+//-------------------------------------------------------------------------------------------------------
 function convertNumberToString(number) {
     const digitNames = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
     const numberString = number.toString();

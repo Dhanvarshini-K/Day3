@@ -2,7 +2,7 @@
 // For example
 // stringSplit(“numenticaui”, 2);
 // Output [“nu”, “me”, “nt”, “ic”, “au”, “i];
-
+//--------------------------------------------------------------------------------------------------------
 function stringSplit(string,splitDigit){
     if(typeof splitDigit !== "number"){
         return "The splitdigit is not number type";

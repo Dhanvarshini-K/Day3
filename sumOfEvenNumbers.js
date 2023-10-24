@@ -2,7 +2,7 @@
 // For example
 // findEvenSum([38, 3, 2, 8, 31])
 // output -  48
-
+//--------------------------------------------------------------------------------------------------------
 function findEvenSum(array){
     let sum = 0;
     for(let i=0; i<array.length; i++){
