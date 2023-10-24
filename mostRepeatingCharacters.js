@@ -20,13 +20,11 @@ function charRepeating(inputString) {
         currentChar = char;
         currentCount = 1;
       }
-  
       if (currentCount > maxCount) {
         maxChar = currentChar;
         maxCount = currentCount;
       }
     }
-  
     return maxChar;
   }
 
