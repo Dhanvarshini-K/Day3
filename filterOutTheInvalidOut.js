@@ -27,4 +27,4 @@ function filterOut(array,dataType){
 
 console.log(filterOut(["a", "d", 45, 66, true, "cd"],"string"));
 console.log(filterOut(["a", "d", 45, 66, true, "cd"],"boolean"));
-console.log(filterOut(["a", "d", 45, 66, true, "cd"],"number"));
+console.log(filterOut(["a", "d", -45, 66, true, "cd"],"number"));

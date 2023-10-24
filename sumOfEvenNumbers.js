@@ -12,4 +12,4 @@ function findEvenSum(array){
     }
     return sum;
 }
-console.log(findEvenSum([38, 3, 2, 8, 31]));
+console.log(findEvenSum([38, 3, 2, 8, 31,"hello"]));
