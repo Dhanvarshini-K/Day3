@@ -14,6 +14,7 @@ function convertNumberToString(number) {
   
     for (let i = 0; i < numberString.length; i++) {
         const digit = numberString[i] - '0';
+        console.log('num sttr', numberString[i], digit);
       result += digitNames[digit];
     }
     return result;

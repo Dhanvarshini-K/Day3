@@ -14,5 +14,5 @@ function stringSplit(string,splitDigit){
     }
     return splitIntoAnArray;
 }
-const result = stringSplit("numenticaui678",2);
+const result = stringSplit("numenticaui678",-2);
 console.log(result)

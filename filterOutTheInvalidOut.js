@@ -8,7 +8,7 @@
 // Output [1, true, 33];
 //----------------------------------------------------------------------------------------------------
 function filterOut(array,dataType){
-  if(dataType.length === 0){
+  if(!dataType && typeof dataType !== "string"){
     return "empty";
   }
     function isValidType(item) {

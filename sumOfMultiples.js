@@ -13,7 +13,7 @@ function findSumOfMultiples(number, limit) {
       }
     return sum;
   }
-    const result1 = findSumOfMultiples(5,5);
-    const result2 = findSumOfMultiples(8,"hello");
-    console.log(result1); 
-    console.log(result2);
+   
+ 
+    console.log(findSumOfMultiples("5","5")); 
+    console.log(findSumOfMultiples(8,"hello"));
